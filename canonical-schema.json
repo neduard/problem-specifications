@@ -117,15 +117,7 @@
       "scenario":
           { "description": "An identifier for a specific scenario (kebab-case)"
           , "type": "string"
-          , "enum":
-                [ "big-integer"
-                , "floating-point"
-                , "immutable"
-                , "library-test"
-                , "unicode"
-                , "input-validation"
-                , "runtime-validation"
-                ]
+          , "enum": ["big-integer", "floating-point", "library-test", "unicode", "input-validation", "runtime-validation"]
           },
 
       "scenarios":
@@ -162,4 +154,5 @@
           }
 
     }
-  }
+
+}
